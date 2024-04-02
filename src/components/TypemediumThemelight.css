@@ -1,0 +1,66 @@
+.icondocument-verified {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  object-fit: contain;
+}
+.cta-text2 {
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+}
+.iconchevron-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 2px solid #ffe9f9;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.vector-1-stroke1 {
+  position: absolute;
+  height: 66.88%;
+  width: 41.88%;
+  top: 16.88%;
+  right: 25%;
+  bottom: 16.25%;
+  left: 33.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconchevron {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.typemedium-themelight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 0;
+  gap: 4px;
+  text-align: center;
+  font-size: 14px;
+  color: #0d0d0d;
+  font-family: Inter;
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 768px) {
+  .typemedium-themelight {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0;
+  }
+
+  .iconchevron-child,
+  .iconchevron {
+    display: block;
+  }
+}

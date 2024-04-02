@@ -1,0 +1,115 @@
+.image-bg {
+  width: 348px;
+  position: relative;
+  border-radius: 12px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #c4c4c4;
+  height: 264px;
+}
+.full-web-designing1 {
+  width: 348px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.icon,
+.week1 {
+  width: 20.7px;
+  position: relative;
+  height: 20px;
+}
+.week1 {
+  width: 60.4px;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  height: 17px;
+  flex-shrink: 0;
+}
+.week {
+  width: 89.3px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.icon1,
+.lessons1 {
+  width: 20.8px;
+  position: relative;
+  height: 13.4px;
+}
+.lessons1 {
+  width: 78.6px;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  height: 17px;
+  flex-shrink: 0;
+}
+.image-bg-parent,
+.lessons,
+.lessons-11-week {
+  width: 107.8px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.image-bg-parent,
+.lessons-11-week {
+  width: 237px;
+  height: 20px;
+  gap: 38px;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.image-bg-parent {
+  width: 380px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  height: 403px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Inter;
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 480px) {
+  .image-bg,
+  .image-bg-parent {
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .full-web-designing1,
+  .week1,
+  .lessons1 {
+    width: 100%;
+    display: block;
+  }
+  
+  .icon,
+  .week,
+  .icon1,
+  .lessons,
+  .lessons-11-week {
+    width: auto;
+  }
+}

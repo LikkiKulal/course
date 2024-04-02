@@ -1,0 +1,144 @@
+.lms-header-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 1440px;
+  height: 80px;
+}
+.community,
+.courses {
+  position: absolute;
+  top: 30px;
+  right: 522px;
+  font-weight: 500;
+}
+.community {
+  right: 626px;
+}
+.my-classes {
+  top: calc(50% - 10px);
+  right: 394px;
+  font-weight: 500;
+  color: #000;
+}
+.image-1,
+.my-classes,
+.pp {
+  position: absolute;
+}
+.image-1 {
+  top: calc(50% - 24px);
+  left: 135px;
+  width: 130px;
+  height: 47.9px;
+}
+.pp {
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  font-weight: 500;
+}
+.menu-icon,
+.pp-wrapper {
+  position: absolute;
+  overflow: hidden;
+}
+.pp-wrapper {
+  top: 5px;
+  left: 39px;
+  border-radius: 100px;
+  background-color: #fcece1;
+  width: 32px;
+  height: 32px;
+}
+.menu-icon {
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+}
+.frame-child,
+.frame-div {
+  border-radius: 100px;
+  overflow: hidden;
+}
+.frame-div {
+  position: absolute;
+  top: calc(50% - 21px);
+  left: 1226px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  width: 79px;
+  height: 42px;
+  font-size: 14px;
+  color: #000;
+}
+.frame-child {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  flex-shrink: 0;
+}
+.frame-parent1 {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 1070px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.lms-header {
+  width: 1440px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 80px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #0d0d0d;
+  font-family: Inter;
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 768px) {
+  .lms-header-child,
+  .lms-header {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    position: relative;
+  }
+  
+  .community,
+  .courses,
+  .my-classes {
+    position: static;
+    top: auto;
+    right: auto;
+  }
+  
+  .image-1,
+  .menu-icon,
+  .pp,
+  .frame-child {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  
+  .pp-wrapper,
+  .frame-div {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
